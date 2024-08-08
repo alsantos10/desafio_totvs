@@ -1,4 +1,4 @@
-<h1 align="center">Desafio TOTVS</h1>
+<h1 align="center">Desafio TOTVS Frontend</h1>
 
 <p align="center">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/>
@@ -7,6 +7,7 @@
 <h2>Descrição do seu projeto</h2>
 
 <p>Desenvolvimento do aplicação FrontEnd proposto pela TOTVS para avaliação de conhecimento e habilidades em processo seletivo.</p>
+<p>Utilizando framework Angular v18</p>
 
 <h2>Passo a Passo desenvolvimento</h2>
 <ul>
@@ -30,7 +31,7 @@
     <li>
     <span>Utilizando template do Angular Material</span> <br>
     <em>(Criar componente Lista Entregas)</em> <br>
-    <code>ng generate @angular/material:table lista-entregas</code>
+    <code>ng generate @angular/material:table entregas</code>
     </li>
     <li>
     <span>Criação dos componentes</span>
@@ -55,6 +56,7 @@
 </p>
 <p>
     <span>Rodar teste unitário</span>
+    <em>(Utilizando coverage)</em> <br>
     <code>ng test</code>
 </p>
 
