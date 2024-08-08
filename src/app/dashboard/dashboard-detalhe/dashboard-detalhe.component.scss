@@ -1,0 +1,19 @@
+.table1 {
+    width: 100%;
+  }
+.mat-column-totalParaEntregar,
+.mat-column-totalInsucesso,
+.mat-column-entregasRealizadas,
+.mat-column-totalEntregas,
+.mat-column-totalEntregue {
+    text-align: center;
+  }
+.mat-column-totalEntregue,
+.mat-column-entregasRealizadas,
+.mat-column-totalInsucesso {
+    font-weight: bold;
+  }
+  
+.mat-mdc-row {
+  height: 44px
+}

@@ -1,0 +1,30 @@
+<div class="grid-container">
+  <mat-grid-list cols="3" [rowHeight]="customHeight">
+    @for (card of cards | async; track card; let i = $index) {
+      <mat-grid-tile [colspan]="card.cols" [rowspan]="card.rows">
+        <mat-card class="dashboard-card">
+          <mat-card-header>
+            <mat-card-title>
+              {{card.title}}
+            </mat-card-title>
+          </mat-card-header>
+          <mat-card-content class="dashboard-card-content">
+
+            @if (i === 0) {
+              <app-dashboard-detalhe [dash]="dash"></app-dashboard-detalhe>
+            }
+
+            @if (i === 1) {
+              <app-dashboard-detalhe [dash]="dash" [tipo]="2"></app-dashboard-detalhe>
+            }
+
+            @if (i === 2) {
+              <app-dashboard-detalhe [dash]="dash" [tipo]="3"></app-dashboard-detalhe>
+            }
+            
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+    }
+  </mat-grid-list>
+</div>

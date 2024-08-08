@@ -1,0 +1,40 @@
+https://raw.githubusercontent.com/brunochikuji/example/main/entregas.json
+_____
+ETAPAS
+- Experiência intuitiva e responsiva
+- testes e documentação
+_______
+A aplicação deverá ser composta por 2 views e um menu com links para elas:
+- Dashboard
+- Lista de entregas
+
+- Arquivo README
+
+
+_______________
+Instalação do Angular CLI
+npm install -g @angular/cli
+__________________________
+Passo Passo Desafio TOTVS
+- Instalar o Angular Globalmente
+  npm i g @angular/cli
+
+- Criar projeto Angular
+  ng new spa-desafio-totus
+
+- Instalar Design System (Angular Material) 
+  ng add @angular/material
+
+- Utilizando template do Angular Material
+  (Criar componente Dashboard)
+  ng generate @angular/material:dashboard dashboard
+
+  (Criar componente Lista Entregas)
+  ng generate @angular/material:table lista-entregas
+
+- Criar Menu de Navegação
+- Criar rotas
+- Criar Service da API
+- Configuração API
+- Criação das entidades
+
