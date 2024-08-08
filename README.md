@@ -1,7 +1,7 @@
 <h1 align="center">Desafio TOTVS</h1>
 
 <p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/>
 </p>
 
 <h2>Descrição do seu projeto</h2>
@@ -24,12 +24,12 @@
     </li>
     <li>
     <span>Utilizando template do Angular Material</span> <br>
-    <span>(Criar componente Dashboard)</span> <br>
+    <em>(Criar componente Dashboard)</em> <br>
     <code>ng generate @angular/material:dashboard dashboard</code>
     </li>
     <li>
     <span>Utilizando template do Angular Material</span> <br>
-    <span>(Criar componente Lista Entregas)</span> <br>
+    <em>(Criar componente Lista Entregas)</em> <br>
     <code>ng generate @angular/material:table lista-entregas</code>
     </li>
     <li>
